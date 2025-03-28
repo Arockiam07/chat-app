@@ -29,7 +29,7 @@ const SearchInput = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex items-center gap-2 bg-gray-800 rounded-full p-3 w-full max-w-lg mx-auto shadow-lg"
+      className="flex items-center gap--0 bg-gray-800 rounded-full p-3 w-full max-w-lg mx-auto shadow-lg"
     >
       <input
         type="text"
